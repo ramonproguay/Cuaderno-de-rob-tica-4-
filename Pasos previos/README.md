@@ -4,4 +4,3 @@ El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/7CJUpBiHZaA-arduino/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
-file:///C:/Users/Ramon/Downloads/ROBOTICA2.jpg
