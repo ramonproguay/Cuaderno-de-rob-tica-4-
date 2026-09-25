@@ -19,9 +19,22 @@ La Prueba:
 
 
 El Código:
+Este programa controla dos LEDs conectados a Arduino.
+Primero configura los pines 2 y 3 como salidas.
+Después enciende el LED del pin 2 y apaga el del pin 3.
+Espera 1 segundo antes de cambiar.
+Luego apaga el pin 2 y enciende el pin 3.
+Este proceso se repite continuamente.
+
+OUTPUT significa que el pin controla un componente.
+HIGH significa encendido
+LOW significa apagado.
+pinMode sirve para decirle a Arduino cómo se va a usar un pin.
+digitalWrite sirve para poner un pin en HIGH o LOW.
+delay(1000) hace que Arduino espere 1 segundo antes de continuar.
 
 
 <p align="center">
-<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="800" height="600" />
+<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="450" height="600" />
 </p>
 
