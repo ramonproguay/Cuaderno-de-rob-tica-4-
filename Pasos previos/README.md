@@ -67,12 +67,7 @@ delay(1000) hace que Arduino espere 1 segundo antes de continuar
 Así quedaría el Reto 1:
 
 
-<p align="center">
-<img src="Videos/grabacion de pantalla.mp4" width="100" height="100" />
-</p>
-
-
-https://www.youtube.com/watch?v=ID_DEL_https://www.youtube.com/watch?v=2f6OHwZokGQ)
+https://www.youtube.com/watch?v=2f6OHwZokGQ)
 
 
 
