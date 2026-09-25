@@ -6,6 +6,20 @@ El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
 La Prueba con Tinkercad:
 
+El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
+
+El Arduino es el cerebro del circuito y controla los Leds.
+
+La Protoboard sirve para montar y conectar los componentes sin soldar.
+
+Los leds se encienden cuando reciben corriente.
+
+La resistencia limita la corriente para proteger los Leds.
+
+Los cables conectan el Arduino con los diferentes componentes.
+
+El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
+
 
 
 
@@ -13,7 +27,7 @@ La Prueba con Tinkercad:
 
 
 <p align="center">
-<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="800" height="600" />
+<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="400" height="400" />
 </p>
 
 
