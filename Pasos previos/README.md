@@ -22,6 +22,6 @@ La prueba:
 
 
 <p align="center">
-<img src="Imágenes/ROBÓTICA1.jpg" width="800" height="600" />
+<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="800" height="600" />
 </p>
 
