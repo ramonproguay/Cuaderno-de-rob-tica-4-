@@ -27,12 +27,18 @@ Espera 1 segundo antes de cambiar.
 Luego apaga el pin 2 y enciende el pin 3.
 Este proceso se repite continuamente.
 
-OUTPUT significa que el pin controla un componente.
+OUTPUT significa que el pin controla un componente
+
 HIGH significa encendido
-LOW significa apagado.
-pinMode sirve para decirle a Arduino cómo se va a usar un pin.
-digitalWrite sirve para poner un pin en HIGH o LOW.
-delay(1000) hace que Arduino espere 1 segundo antes de continuar.
+
+LOW significa apagado
+
+pinMode sirve para decirle a Arduino cómo se va a usar un pin
+
+digitalWrite sirve para poner un pin en HIGH o LOW
+
+delay(1000) hace que Arduino espere 1 segundo antes de continuar
+
 
 
 <p align="center">
