@@ -26,6 +26,7 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 
 
 
+
 <p align="center">
 <img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="400" height="400" />
 </p>
@@ -52,6 +53,7 @@ pinMode sirve para decirle a Arduino cómo se va a usar un pin
 digitalWrite sirve para poner un pin en HIGH o LOW
 
 delay(1000) hace que Arduino espere 1 segundo antes de continuar
+
 
 
 
