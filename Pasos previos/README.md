@@ -21,7 +21,7 @@ La Prueba con Tinkercad:
 El Código:
 
 Este programa controla dos LEDs conectados a Arduino.
-Primero configura los pines 2 y 3 como salidas.
+Primero configura los pines 2 y 3.
 Después enciende el LED del pin 2 y apaga el del pin 3.
 Espera 1 segundo antes de cambiar.
 Luego apaga el pin 2 y enciende el pin 3.
