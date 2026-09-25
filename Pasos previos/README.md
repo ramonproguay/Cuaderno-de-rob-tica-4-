@@ -13,7 +13,7 @@ El Código:
 
 
 <p align="center">
-<img src="imagenesdelproyecto/logo_azzait.png" width="100" height="100" />
+<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="100" height="100" />
 </p>
 
 
