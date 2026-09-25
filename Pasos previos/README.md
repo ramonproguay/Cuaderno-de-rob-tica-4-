@@ -70,6 +70,7 @@ Así quedaría el Reto 1:
 <a href="https://www.youtube.com/watch?v=2f6OHwZokGQ" target="_blank">
 <img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="500">
 </a>
-
+Vídeo realizado por (Lorenzo/@LorenRobótica879)
+El vídeo lo he sacado de Youtube
 
 
