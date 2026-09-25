@@ -22,6 +22,6 @@ La prueba:
 
 
 <p align="center">
-<img src="imagenesdelproyecto/logo_azzait.png" width="100" height="100" />
+<img src="Imágenes/ROBÓTICA1.jpg" width="800" height="600" />
 </p>
 
