@@ -35,6 +35,6 @@ delay(1000) hace que Arduino espere 1 segundo antes de continuar.
 
 
 <p align="center">
-<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="450" height="600" />
+<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="400" height="400" />
 </p>
 
