@@ -4,7 +4,7 @@ El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/7CJUpBiHZaA-arduino/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
-La Prueba:
+La Prueba con Tinkercad:
 
 
 
@@ -19,6 +19,7 @@ La Prueba:
 
 
 El Código:
+
 Este programa controla dos LEDs conectados a Arduino.
 Primero configura los pines 2 y 3 como salidas.
 Después enciende el LED del pin 2 y apaga el del pin 3.
