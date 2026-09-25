@@ -3,6 +3,24 @@ El reto trata de conseguir encender un diodo Led mientras que el otro esta apaga
 El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/7CJUpBiHZaA-arduino/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
+El Código:
+
+
+
+
+
+
+
 <p align="center">
-<img src="ROBOTICA2/ROBOTICA2" width="100" height="100" />
+<img src="imagenesdelproyecto/logo_azzait.png" width="100" height="100" />
 </p>
+
+
+
+La prueba:
+
+
+<p align="center">
+<img src="imagenesdelproyecto/logo_azzait.png" width="100" height="100" />
+</p>
+
