@@ -69,6 +69,10 @@ Así quedaría el Reto 1:
 
 [![https://www.youtube.com/watch?v=2f6OHwZokGQ)]
 
+<a href="https://www.youtube.com/watch?v=2f6OHwZokGQ)" target="_blank">
+  <img src="https://www.youtube.com/watch?v=2f6OHwZokGQ)" width="300">
+</a>
+
 
 
 
