@@ -70,7 +70,7 @@ Así quedaría el Reto 1:
 [![https://www.youtube.com/watch?v=2f6OHwZokGQ)]
 
 <a href="https://www.youtube.com/watch?v=2f6OHwZokGQ)" target="_blank">
-  <img src="grabacion de pantalla.mp4" width="300">
+  <img src="xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="300">
 </a>
 
 
