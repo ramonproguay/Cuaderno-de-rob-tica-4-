@@ -83,8 +83,6 @@ El Código:
 
 Este programa sirve para encender y apagar una luz LED usando un pulsador.
 
-Este programa sirve para controlar una luz LED con un pulsador.
-
  Primero, le decimos a Arduino que el LED está conectado al número 13 y el pulsador al número 2.
  
  Después, Arduino prepara el pulsador para recibir información y el LED para encenderse o apagarse.
