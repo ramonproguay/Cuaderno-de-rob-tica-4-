@@ -90,6 +90,7 @@ Luego, Arduino comprueba continuamente si estamos pulsando el botón.
 Si el botón **está pulsado, el LED se apaga**
 
 Si **no estamos pulsando el botón, el LED se enciende.**
+
 Todo esto se repite continuamente para que pueda saber siempre qué está pasando.
  
 
