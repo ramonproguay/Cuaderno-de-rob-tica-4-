@@ -118,6 +118,8 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 <img src="Imágenes/captura 2.png" width="1050" height="1050" />
 </p>
 
+#Reto 3: Uso de un Potenciometro y el Monitor Serie
+
 
 
 
