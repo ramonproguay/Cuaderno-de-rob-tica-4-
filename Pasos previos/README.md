@@ -4,7 +4,7 @@ El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/7CJUpBiHZaA-arduino/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
-La Prueba con Tinkercad:
+**La Prueba con Tinkercad:**
 
 El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
 
@@ -64,7 +64,7 @@ delay(1000) hace que Arduino espere 1 segundo antes de continuar
 
 
 
-Así quedaría el Reto 1:
+**Así quedaría el Reto 1:**
 
 
 <a href="https://www.youtube.com/watch?v=2f6OHwZokGQ" target="_blank">
@@ -78,8 +78,7 @@ El vídeo lo he sacado de Youtube
 
 
 # Reto 2: Encendido de diodos led con pulsador.
-
-El Código:
+**El Código:**
 
 Este programa sirve para encender y apagar una luz LED usando un pulsador.
 
