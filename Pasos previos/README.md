@@ -79,6 +79,13 @@ El vídeo lo he sacado de Youtube
 
 # Reto 2: Encendido de diodos led con pulsador.
 
+El Código:
+www
+
+www
+
+www
+
 
 <p align="center">
 <img src="Imágenes/Captura.PNG" width="400" height="400" />
