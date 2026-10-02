@@ -106,7 +106,7 @@ www
 
 
 <p align="center">
-<img src="Imágenes/captura 2.png" width="450" height="450" />
+<img src="Imágenes/captura 2.png" width="750" height="750" />
 </p>
 
 
