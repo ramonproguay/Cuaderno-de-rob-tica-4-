@@ -75,7 +75,7 @@ Vídeo realizado por (Lorenzo/@LorenRobótica879)
 
 El vídeo lo he sacado de Youtube
 
-
+Licencia estandar de yotube.
 
 # Reto 2: Encendido de diodos led con pulsador.
 **El Código:**
