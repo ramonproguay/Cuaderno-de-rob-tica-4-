@@ -73,9 +73,7 @@ delay(1000) hace que Arduino espere 1 segundo antes de continuar
 
 Vídeo realizado por (Lorenzo/@LorenRobótica879)
 
-El vídeo lo he sacado de Youtube
-
-Licencia estandar de yotube.
+Licencia estandar de Youtube.
 
 # Reto 2: Encendido de diodos led con pulsador.
 **El Código:**
