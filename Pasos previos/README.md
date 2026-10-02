@@ -100,15 +100,15 @@ Todo esto se repite continuamente para que pueda saber siempre qué está pasand
 
 **La Prueba:**
 
-El circuito tiene un Arduino conectado a un LEDs mediante una protoboard. El programa trata de de si presionas el pulsador el LEDs se apaga y si no lo presionas el LEDs esta siempre encendido
+El circuito tiene un Arduino conectado a un LED mediante una protoboard. El programa trata de de si presionas el pulsador el LED se apaga y si no lo presionas el LED esta siempre encendido.
 
 El Arduino es el cerebro del circuito.
 
 La Protoboard sirve para montar y conectar los componentes sin soldar.
 
-El leds se encienden esta siempre enciendo
+El leds se encienden esta siempre enciendo.
 
-La resistencia limita la corriente para proteger el LEDs
+La resistencia limita la corriente para proteger el LED.
 
 Los cables conectan el Arduino con los diferentes componentes.
 
