@@ -91,10 +91,8 @@ Este programa sirve para controlar una luz LED con un pulsador.
  Si no estamos pulsando el botón, el LED se enciende.
  Todo esto se repite continuamente para que pueda saber siempre qué está pasando.
 
-www
-
 
 <p align="center">
-<img src="Imágenes/Captura.PNG" width="400" height="400" />
+<img src="Imágenes/Captura.PNG" width="450" height="450" />
 </p>
 
