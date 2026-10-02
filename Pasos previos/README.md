@@ -102,6 +102,19 @@ Todo esto se repite continuamente para que pueda saber siempre qué está pasand
 
 El circuito tiene un Arduino conectado a un LEDs mediante una protoboard. El programa trata de de si presionas el pulsador el LEDs se apaga y si no lo presionas el LEDs esta siempre encendido
 
+El Arduino es el cerebro del circuito.
+
+La Protoboard sirve para montar y conectar los componentes sin soldar.
+
+El leds se encienden esta siempre enciendo
+
+La resistencia limita la corriente para proteger el LEDs
+
+Los cables conectan el Arduino con los diferentes componentes.
+
+El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
+
+
 
 <p align="center">
 <img src="Imágenes/captura 2.png" width="1050" height="1050" />
