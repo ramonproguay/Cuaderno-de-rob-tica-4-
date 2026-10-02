@@ -33,7 +33,7 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 
 
 
-El Código:
+**El Código:**
 
 Este programa controla dos LEDs conectados a Arduino.
 Primero configura los pines 2 y 3.
@@ -97,4 +97,17 @@ Todo esto se repite continuamente para que pueda saber siempre qué está pasand
 <p align="center">
 <img src="Imágenes/Captura.PNG" width="450" height="450" />
 </p>
+
+
+**La Prueba:**
+
+www
+
+www
+
+
+<p align="center">
+<img src="Imágenes/captura 2.png" width="450" height="450" />
+</p>
+
 
