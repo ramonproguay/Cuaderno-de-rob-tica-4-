@@ -100,9 +100,7 @@ Todo esto se repite continuamente para que pueda saber siempre qué está pasand
 
 **La Prueba:**
 
-www
-
-www
+El circuito tiene un Arduino conectado a un LEDs mediante una protoboard. El programa trata de de si presionas el pulsador el LEDs se apaga y si no lo presionas el LEDs esta siempre encendido
 
 
 <p align="center">
@@ -112,5 +110,3 @@ www
 
 
 
-
-**Diagrama de Flujos:**
