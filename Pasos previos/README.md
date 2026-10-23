@@ -119,7 +119,8 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 </p>
 
 # Reto 3: Uso de un Potenciometro y el Monitor Serie
-
+# Reto 4:  Mapeado de datos del potenciómetro.
+# Reto 5: PWM
 
 
 
