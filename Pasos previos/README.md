@@ -131,7 +131,7 @@ En el programa usamos analogRead() para leer los valores y Serial.println() para
 **El Código:**
 
 <p align="center">
-<img src="Imágenes/captura1.png" width="1050" height="1050" />
+<img src="Imágenes/captura1.PNG" width="1050" height="1050" />
 </p>
 
 
