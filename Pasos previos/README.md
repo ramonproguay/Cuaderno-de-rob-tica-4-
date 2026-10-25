@@ -119,7 +119,6 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 </p>
 
 # Reto 3: Uso de un Potenciometro y el Monitor Serie
-Práctica de Robótica: Uso de un sensor
 
 En esta práctica conectamos una placa al ordenador usando varios cables.
 
@@ -139,7 +138,7 @@ El programa lee un valor por el pin A0 y lo convierte en un número entre 0 y 25
 **El Código:**
 
 <p align="center">
-<img src="Imágenes/captura1.PNG" width="150" height="150" />
+<img src="Imágenes/captura1.PNG" width="250" height="250" />
 </p>
 
 
