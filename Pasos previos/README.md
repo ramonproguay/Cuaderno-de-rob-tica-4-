@@ -119,6 +119,28 @@ El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador
 </p>
 
 # Reto 3: Uso de un Potenciometro y el Monitor Serie
+Práctica de Robótica: Uso de un sensor
+
+En esta práctica conectamos una placa al ordenador usando varios cables.
+
+Después usamos un programa para ver los números que recibe la placa. Estos números pueden cambiar según la señal que recibe.
+
+En el programa usamos analogRead() para leer los valores y Serial.println() para verlos en la pantalla. También usamos delay(500) para que espere medio segundo entre cada lectura.
+
+
+**El Código:**
+
+<p align="center">
+<img src="Imágenes/captura1.png" width="1050" height="1050" />
+</p>
+
+
+
+
+
+
+
+
 # Reto 4:  Mapeado de datos del potenciómetro.
 # Reto 5: PWM
 
