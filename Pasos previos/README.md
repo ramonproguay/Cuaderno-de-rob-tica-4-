@@ -130,6 +130,9 @@ En el programa usamos analogRead() para leer los valores y Serial.println() para
 
 
 # Reto 4:  Mapeado de datos del potenciómetro.
+<p align="center">
+<img src="Imágenes/POTECIOMETRO.PNG" width="400" height="400" />
+</p>
 # Reto 5: PWM
 En esta práctica usamos Arduino para controlar el brillo de un LED.
 
