@@ -127,7 +127,7 @@ Después usamos un programa para ver los números que recibe la placa. Estos nú
 En el programa usamos analogRead() para leer los valores y Serial.println() para verlos en la pantalla. También usamos delay(500) para que espere medio segundo entre cada lectura.
 
 <p align="center">
-<img src="Imágenes/Pasos previos/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="400" height="400" />
+<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="1050" height="1050" />
 </p>
 
 
