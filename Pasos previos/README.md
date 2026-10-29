@@ -179,3 +179,51 @@ delay(500): espera medio segundo antes de repetir la lectura.
 <img src="Imágenes/POTENCIOMETRO.PNG" width="250" height="250" />
 </p>
 
+**El vídeo:**
+
+
+
+
+# Reto 5: PWM
+
+En esta práctica usamos Arduino para controlar el brillo de un LED.
+
+El programa lee un valor por el pin A0 y lo convierte en un número entre 0 y 255. Después, envía ese valor al pin 9 para cambiar el brillo del LED.
+
+**El Código:**
+
+<p align="center">
+<img src="Imágenes/captura1.PNG" width="250" height="250" />
+</p>
+
+
+**1. Variables**
+
+#define LED9 9: indica que el LED está conectado al pin 9.
+
+int P1 = A0: indica que vamos a leer los valores del pin A0.
+
+float valor = 0: guarda el valor que recibe el programa.
+
+float DutyCycle: guarda el valor que se usará para controlar el LED.
+
+**2. Función setup()**
+
+pinMode(LED9, OUTPUT): prepara el pin 9 para controlar el LED.
+
+Serial.begin(9600): permite enviar datos al ordenador para verlos en la pantalla.
+
+**3. Función loop()**
+
+valor = analogRead(P1): lee el valor que llega al pin A0.
+
+DutyCycle = map(valor, 0, 1023, 0, 255): convierte el valor leído a otro entre 0 y 255.
+
+Serial.println(DutyCycle): muestra el valor en el ordenador.
+
+analogWrite(LED9, DutyCycle): controla el brillo del LED según el valor obtenido.
+
+delay(100): espera 100 milisegundos antes de repetir el proceso.
+
+
+
