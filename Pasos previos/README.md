@@ -147,7 +147,7 @@ delay(500): espera medio segundo antes de repetir el proceso.
 
 
 <p align="center">
-<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="100" height="100" />
+<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="250" height="250" />
 </p>
 
 
@@ -156,8 +156,9 @@ delay(500): espera medio segundo antes de repetir el proceso.
 
 
 # Reto 4:  Mapeado de datos del potenciómetro.
+
 <p align="center">
-<img src=/Imágenes/POTENCIOMETRO.PNG" width="400" height="400" />
+<img src="Imágenes/POTENCIOMETRO.PNG" width="250" height="250" />
 </p>
 # Reto 5: PWM
 En esta práctica usamos Arduino para controlar el brillo de un LED.
