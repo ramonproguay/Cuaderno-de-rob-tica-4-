@@ -171,3 +171,11 @@ analogRead(P1): lee el valor de la entrada A0, que puede ir de 0 a 1023.
 Serial.println(valor): muestra el valor en el monitor serie y salta a la siguiente línea.
 
 delay(500): espera medio segundo antes de repetir la lectura.
+
+
+
+
+<p align="center">
+<img src="Imágenes/POTENCIOMETRO.PNG" width="250" height="250" />
+</p>
+
