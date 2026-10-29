@@ -126,14 +126,38 @@ Después usamos un programa para ver los números que recibe la placa. Estos nú
 
 En el programa usamos analogRead() para leer los valores y Serial.println() para verlos en la pantalla. También usamos delay(500) para que espere medio segundo entre cada lectura.
 
+**El Codigo:**
+
+P2 = A2: indica la entrada analógica que se utiliza.
+
+entrada: guarda el valor leído, entre 0 y 1023.
+
+DutyCycle: guarda el valor convertido, entre 0 y 255.
+
+Serial.begin(9600): inicia la comunicación con el ordenador.
+
+analogRead(P2): lee el valor de la entrada A2.
+
+map(): convierte el valor de 0-1023 a 0-255.
+
+Serial.print(): muestra el resultado en el ordenador.
+
+delay(500): espera medio segundo antes de repetir el proceso.
+
+
+
 <p align="center">
-<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="1050" height="1050" />
+<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="100" height="100" />
 </p>
+
+
+**El Video:**
+
 
 
 # Reto 4:  Mapeado de datos del potenciómetro.
 <p align="center">
-<img src="Imágenes/POTECIOMETRO.PNG" width="400" height="400" />
+<img src=/Imágenes/POTENCIOMETRO.PNG" width="400" height="400" />
 </p>
 # Reto 5: PWM
 En esta práctica usamos Arduino para controlar el brillo de un LED.
