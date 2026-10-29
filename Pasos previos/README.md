@@ -226,4 +226,5 @@ analogWrite(LED9, DutyCycle): controla el brillo del LED según el valor obtenid
 delay(100): espera 100 milisegundos antes de repetir el proceso.
 
 
+**El vídeo:**
 
