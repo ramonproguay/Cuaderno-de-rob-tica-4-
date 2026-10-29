@@ -156,11 +156,30 @@ delay(500): espera medio segundo antes de repetir el proceso.
 
 
 # Reto 4:  Mapeado de datos del potenciómetro.
+Este programa sirve para leer los valores de un potenciómetro conectado a la entrada A0 de Arduino y verlos en el ordenador.
+
+**El Código:**
+
+P1 = A0: indica que se utiliza la entrada analógica A0.
+
+float valor = 0: crea una variable para guardar el valor leído.
+
+Serial.begin(9600): inicia la comunicación con el ordenador.
+
+analogRead(P1): lee el valor de la entrada A0, que puede ir de 0 a 1023.
+
+Serial.println(valor): muestra el valor en el monitor serie y salta a la siguiente línea.
+
+delay(500): espera medio segundo antes de repetir la lectura.
+
 
 <p align="center">
 <img src="Imágenes/POTENCIOMETRO.PNG" width="250" height="250" />
 </p>
+
+
 # Reto 5: PWM
+
 En esta práctica usamos Arduino para controlar el brillo de un LED.
 
 El programa lee un valor por el pin A0 y lo convierte en un número entre 0 y 255. Después, envía ese valor al pin 9 para cambiar el brillo del LED.
