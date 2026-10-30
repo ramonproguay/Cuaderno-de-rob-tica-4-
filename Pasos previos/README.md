@@ -228,3 +228,4 @@ delay(100): espera 100 milisegundos antes de repetir el proceso.
 
 **El vídeo:**
 
+# Reto 6: Ultrasonido
