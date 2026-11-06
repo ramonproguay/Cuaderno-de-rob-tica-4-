@@ -228,5 +228,5 @@ delay(100): espera 100 milisegundos antes de repetir el proceso.
 
 **El vídeo:**
 
-[![](https://www.youtube.com/watch?v=ZORLppsyEgE)](https://www.youtube.com/watch?v=ZORLppsyEgE)
+[![](https://img.youtube.com/vi/ZORLppsyEgE/0.jpg)](https://www.youtube.com/watch?v=ZORLppsyEgE)
 # Reto 6: Ultrasonido
