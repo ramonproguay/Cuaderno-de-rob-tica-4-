@@ -181,7 +181,7 @@ delay(500): espera medio segundo antes de repetir la lectura.
 
 **El vídeo:**
 
-
+[![](https://img.youtube.com/vi/FqHJXZcOIXY/0.jpg)](https://www.youtube.com/watch?v=FqHJXZcOIXY)
 
 
 # Reto 5: PWM
