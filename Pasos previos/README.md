@@ -278,3 +278,7 @@ Video:
 
 
 [![](https://img.youtube.com/vi/EXzA4VjIh4Y/0.jpg)](https://www.youtube.com/watch?v=EXzA4VjIh4Y)
+
+Vídeo realizado por (Lorenzo/@LorenRobótica879)
+
+Licencia estandar de Youtube.
