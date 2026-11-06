@@ -275,4 +275,6 @@ delay: hace que Arduino espere 100 milisegundos antes de continuar.
 </p>
 
 Video:
+
+
 [![](https://img.youtube.com/vi/EXzA4VjIh4Y/0.jpg)](https://www.youtube.com/watch?v=EXzA4VjIh4Y)
