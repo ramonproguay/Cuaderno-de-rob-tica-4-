@@ -153,7 +153,7 @@ delay(500): espera medio segundo antes de repetir el proceso.
 
 **El Video:**
 
-
+[![](https://img.youtube.com/vi/u_LzLcUyPQk/0.jpg)](https://www.youtube.com/watch?v=u_LzLcUyPQk)
 
 # Reto 4:  Mapeado de datos del potenciómetro.
 Este programa sirve para leer los valores de un potenciómetro conectado a la entrada A0 de Arduino y verlos en el ordenador.
