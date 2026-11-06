@@ -243,3 +243,35 @@ Vídeo realizado por (Lorenzo/@LorenRobótica879)
 Licencia estandar de Youtube.
 
 # Reto 6: Ultrasonido
+
+Este programa sirve para detectar si hay algún objeto cerca de un sensor. Si el objeto está a menos de 15 cm, se enciende una luz LED. Si está más lejos, la luz se apaga.
+
+#include "Ultrasonic.h"
+
+Esta línea sirve para añadir una librería que nos ayuda a utilizar el sensor ultrasónico y medir distancias.
+
+define TRIG_PIN 12
+
+define ECHO_PIN 11
+
+Aquí indicamos dónde están conectados los cables del sensor en Arduino. El TRIG envía una señal y el ECHO recibe esa señal cuando rebota contra un objeto.
+Ultrasonic OurModule(TRIG_PIN, ECHO_PIN);
+
+Esta parte se ejecuta una sola vez cuando encendemos Arduino.
+
+Serial.begin: sirve para conectar Arduino con el ordenador y ver los resultados.
+Serial.println: muestra un mensaje que dice «Aviso a 15 cm».
+pinMode: indica que el pin 13 se va a utilizar para encender y apagar el LED.
+void loop()
+
+Esta parte se repite todo el tiempo mientras Arduino está encendido.
+
+Serial.print: mide la distancia del objeto en centímetros.
+Serial.println: escribe cm después del número para saber que la distancia está en centímetros.
+delay: hace que Arduino espere 100 milisegundos antes de continuar.
+
+<p align="center">
+<img src="Imágenes/Captura (1).PNG" width="250" height="250" />
+</p>
+
+[![](https://img.youtube.com/vi/EXzA4VjIh4Y/0.jpg)](https://www.youtube.com/watch?v=EXzA4VjIh4Y)
