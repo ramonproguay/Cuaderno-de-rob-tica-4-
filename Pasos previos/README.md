@@ -155,6 +155,10 @@ delay(500): espera medio segundo antes de repetir el proceso.
 
 [![](https://img.youtube.com/vi/u_LzLcUyPQk/0.jpg)](https://www.youtube.com/watch?v=u_LzLcUyPQk)
 
+Vídeo realizado por (Lorenzo/@LorenRobótica879)
+
+Licencia estandar de Youtube.
+
 # Reto 4:  Mapeado de datos del potenciómetro.
 Este programa sirve para leer los valores de un potenciómetro conectado a la entrada A0 de Arduino y verlos en el ordenador.
 
@@ -182,6 +186,10 @@ delay(500): espera medio segundo antes de repetir la lectura.
 **El vídeo:**
 
 [![](https://img.youtube.com/vi/FqHJXZcOIXY/0.jpg)](https://www.youtube.com/watch?v=FqHJXZcOIXY)
+
+Vídeo realizado por (Lorenzo/@LorenRobótica879)
+
+Licencia estandar de Youtube.
 
 
 # Reto 5: PWM
@@ -229,4 +237,9 @@ delay(100): espera 100 milisegundos antes de repetir el proceso.
 **El vídeo:**
 
 [![](https://img.youtube.com/vi/ZORLppsyEgE/0.jpg)](https://www.youtube.com/watch?v=ZORLppsyEgE)
+
+Vídeo realizado por (Lorenzo/@LorenRobótica879)
+
+Licencia estandar de Youtube.
+
 # Reto 6: Ultrasonido
