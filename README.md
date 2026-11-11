@@ -1,5 +1,5 @@
 # Cuaderno de Robótica 4ºESO
 
 <p align="center">
-<img src="Imágenes/loytnu134-dog-8971206.jpg" width="250" height="250" />
+<img width="2956" height="4320" alt="loytnu134-dog-8971206" src="https://github.com/user-attachments/assets/d5c8b71e-4789-4ef9-8a6e-d251bee715fe" />
 </p>
