@@ -18,15 +18,9 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 ## Reto 1: Dos LED alternativos
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Configurar pines 2 y 3 como OUTPUT]
- B --> C[Encender LED 2 y apagar LED 3]
- C --> D[Esperar 1 segundo]
- D --> E[Apagar LED 2 y encender LED 3]
- E --> F[Esperar 1 segundo]
- F --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama1.png" width="650" alt="Diagrama de flujo del reto 1"/>
+</p>
 
 
 
@@ -84,15 +78,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 2: LED y pulsador
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Configurar LED como salida y pulsador como entrada]
- B --> C{¿Pulsador presionado?}
- C -- Sí --> D[Apagar LED]
- C -- No --> E[Encender LED]
- D --> C
- E --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama2.png" width="650" alt="Diagrama de flujo del reto 2"/>
+</p>
 
 
 
@@ -123,14 +111,9 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 ## Reto 3: Potenciómetro y Monitor Serie
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Iniciar Serial a 9600]
- B --> C[Leer potenciómetro A2]
- C --> D[Mostrar valor en Monitor Serie]
- D --> E[Esperar 500 ms]
- E --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama3.png" width="650" alt="Diagrama de flujo del reto 3"/>
+</p>
 
 
 
@@ -164,14 +147,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 4: Lectura del potenciómetro
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Iniciar Serial a 9600]
- B --> C[Leer entrada A0]
- C --> D[Imprimir valor en Monitor Serie]
- D --> E[Esperar 500 ms]
- E --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama4.png" width="650" alt="Diagrama de flujo del reto 4"/>
+</p>
 
 
 
@@ -200,15 +178,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 5: PWM y brillo de un LED
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Configurar LED 9 como salida e iniciar Serial]
- B --> C[Leer potenciómetro A0]
- C --> D[Convertir lectura de 0-1023 a 0-255]
- D --> E[Mostrar valor y aplicar analogWrite]
- E --> F[Esperar 100 ms]
- F --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama5.png" width="650" alt="Diagrama de flujo del reto 5"/>
+</p>
 
 
 
@@ -252,15 +224,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 6: Sensor ultrasónico
 
 ### Diagrama de flujo
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Configurar sensor y Serial]
- B --> C[Enviar pulso ultrasónico]
- C --> D[Medir eco y calcular distancia]
- D --> E[Mostrar distancia y comprobar 15 cm]
- E --> F[Esperar 100 ms]
- F --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama6.png" width="650" alt="Diagrama de flujo del reto 6"/>
+</p>
 
 
 
@@ -297,16 +263,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 **Objetivo:** conseguir que el LED cambie su brillo según la distancia a la que está un objeto. Cuanto más cerca esté, más luminosidad tendrá el LED.
 
 **Diagrama de flujo**
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Iniciar Serial y configurar LED]
- B --> C[Leer distancia con el sensor ultrasónico]
- C --> D[Convertir distancia en valor de brillo]
- D --> E[Mostrar distancia en el Monitor Serie]
- E --> F[Aplicar brillo al LED con analogWrite]
- F --> G[Esperar 100 ms]
- G --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama6.1.png" width="650" alt="Diagrama de flujo del reto 6.1"/>
+</p>
 
 **¿Cómo funciona el código?**
 1. Se incluye la librería `Ultrasonic.h`, que permite utilizar el sensor.
@@ -329,20 +288,9 @@ flowchart TD
 **Objetivo:** añadir un potenciómetro para elegir la distancia a la que se activa el LED de emergencia. Al girarlo, se cambia el límite de proximidad.
 
 **Diagrama de flujo**
-```mermaid
-flowchart TD
- A([Inicio]) --> B[Configurar LED y comenzar Serial]
- B --> C[Leer potenciómetro A0]
- C --> D[Convertir lectura en distancia límite]
- D --> E[Medir distancia con el ultrasónico]
- E --> F[Mostrar distancia en el Monitor Serie]
- F --> G{¿Objeto más cerca que el límite?}
- G -- Sí --> H[Encender LED y mostrar alerta]
- G -- No --> I[Apagar LED]
- H --> J[Esperar 100 ms]
- I --> J
- J --> C
-```
+<p align="center">
+<img src="Imágenes/Diagrama6.2.png" width="650" alt="Diagrama de flujo del reto 6.2"/>
+</p>
 
 **¿Cómo funciona el código?**
 1. Se declaran los pines del sensor (TRIG 4 y ECHO 5), el LED (9) y el potenciómetro (A0).
