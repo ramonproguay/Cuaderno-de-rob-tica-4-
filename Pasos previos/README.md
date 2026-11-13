@@ -209,16 +209,9 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Retos pendientes
 
 ### Reto 6.1: Reto no dirigido
-Pendiente de añadir el enunciado, el montaje, el código y la explicación.
+
 
 ### Reto 6.2: Reto no dirigido
-Pendiente de añadir el enunciado, el montaje, el código y la explicación.
 
----
 
-## Consejos para las prácticas
-- Revisa las conexiones antes de conectar el USB.
-- Comprueba que el LED tiene la polaridad correcta.
-- Usa una resistencia para proteger cada LED.
-- Si el programa no funciona, revisa primero los pines y después el código.
-- Guarda una captura del circuito y del programa en cada reto.
+
