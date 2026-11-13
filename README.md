@@ -11,9 +11,9 @@
 
 ---
 
-¡Buenas! Soy Ramón y este es mi cuaderno de Robótica. Aquí voy guardando los retos, programas, explicaciones y cosas que voy aprendiendo en clase.
+ Soy Ramón y este es mi cuaderno de Robótica. Aquí voy guardando los retos, programas, explicaciones y cosas que voy aprendiendo en clase.
 
-Me gustan el fútbol y la robótica: uno va de jugar en equipo y el otro de construir y programar cosas. Los dos tienen su ciencia. 
+Me gustan el fútbol y la robótica.
 
 ### 📚 Mi cuaderno
 ➡️ **[Entrar a los retos y actividades](Pasos%20previos/README.md)**
