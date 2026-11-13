@@ -18,9 +18,17 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 ## Reto 1: Dos LED alternativos
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto1.png" width="700" alt="Diagrama de flujo del reto 1"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar pines 2 y 3 como OUTPUT]
+ B --> C[Encender LED 2 y apagar LED 3]
+ C --> D[Esperar 1 segundo]
+ D --> E[Apagar LED 2 y encender LED 3]
+ E --> F[Esperar 1 segundo]
+ F --> C
+```
+
 
 
 
@@ -53,10 +61,6 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 <img src="Imágenes/Codigo_Reto1.png" width="500" alt="Código del reto 1"/>
 </p>
 
-<p align="center">
-<img src="Imágenes/Codigo_Reto1.svg" width="500" alt="Código Arduino del Reto 1"/>
-</p>
-
 ### ¿Cómo funciona el código?
 1. En `setup()` se preparan los pines 2 y 3 como salidas.
 2. En `loop()`, Arduino enciende el LED del pin 2 y apaga el del pin 3.
@@ -81,9 +85,17 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 2: LED y pulsador
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto2.png" width="700" alt="Diagrama de flujo del reto 2"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar LED como salida y pulsador como entrada]
+ B --> C{¿Pulsador presionado?}
+ C -- Sí --> D[Apagar LED]
+ C -- No --> E[Encender LED]
+ D --> C
+ E --> C
+```
+
 
 
 
@@ -113,9 +125,16 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 ## Reto 3: Potenciómetro y Monitor Serie
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto3.png" width="700" alt="Diagrama de flujo del reto 3"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Iniciar Serial a 9600]
+ B --> C[Leer potenciómetro A2]
+ C --> D[Mostrar valor en Monitor Serie]
+ D --> E[Esperar 500 ms]
+ E --> C
+```
+
 
 
 
@@ -148,9 +167,16 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 4: Lectura del potenciómetro
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto4.png" width="700" alt="Diagrama de flujo del reto 4"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Iniciar Serial a 9600]
+ B --> C[Leer entrada A0]
+ C --> D[Imprimir valor en Monitor Serie]
+ D --> E[Esperar 500 ms]
+ E --> C
+```
+
 
 
 
@@ -178,9 +204,17 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 5: PWM y brillo de un LED
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto5.png" width="700" alt="Diagrama de flujo del reto 5"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar LED 9 como salida e iniciar Serial]
+ B --> C[Leer potenciómetro A0]
+ C --> D[Convertir lectura de 0-1023 a 0-255]
+ D --> E[Mostrar valor y aplicar analogWrite]
+ E --> F[Esperar 100 ms]
+ F --> C
+```
+
 
 
 
@@ -223,9 +257,17 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ## Reto 6: Sensor ultrasónico
 
 ### Diagrama de flujo
-<p align="center">
-<img src="Imágenes/Diagrama_Reto6.png" width="700" alt="Diagrama de flujo del reto 6"/>
-</p>
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar sensor y Serial]
+ B --> C[Enviar pulso ultrasónico]
+ C --> D[Medir eco y calcular distancia]
+ D --> E[Mostrar distancia y comprobar 15 cm]
+ E --> F[Esperar 100 ms]
+ F --> C
+```
+
 
 
 
