@@ -292,7 +292,7 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 Vídeo de Lorenzo / @LorenRobótica879.
 
 
-### Reto 6.1: Reto no dirigido 2 · Luminosidad según distancia
+### Reto 6.1: Reto no dirigido 2
 
 **Objetivo:** conseguir que el LED cambie su brillo según la distancia a la que está un objeto. Cuanto más cerca esté, más luminosidad tendrá el LED.
 
@@ -324,7 +324,7 @@ flowchart TD
 
 **Observación:** el enunciado pide dos LED, pero en la imagen del programa solo aparece uno conectado al pin 9. Para cumplirlo completamente habría que añadir otro LED y controlar su brillo también.
 
-### Reto 6.2: Reto no dirigido 3 · Potenciómetro como distancia límite
+### Reto 6.2: Reto no dirigido 3
 
 **Objetivo:** añadir un potenciómetro para elegir la distancia a la que se activa el LED de emergencia. Al girarlo, se cambia el límite de proximidad.
 
