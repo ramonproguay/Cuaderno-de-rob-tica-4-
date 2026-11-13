@@ -11,7 +11,7 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 6. [Reto 6: Sensor ultrasónico](#reto-6-sensor-ultrasónico)
 6.1. [Reto 6.1: Reto no dirigido](#reto-61-reto-no-dirigido)  
    6.2. [Reto 6.2: Reto no dirigido](#reto-62-reto-no-dirigido)  
-7. [Consejos para las prácticas](#consejos-para-las-prácticas)
+
 
 ---
 
