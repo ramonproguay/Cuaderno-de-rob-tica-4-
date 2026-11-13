@@ -282,3 +282,6 @@ Video:
 Vídeo realizado por (Lorenzo/@LorenRobótica879)
 
 Licencia estandar de Youtube.
+
+
+# Reto 6.1: Reto no dirigido
