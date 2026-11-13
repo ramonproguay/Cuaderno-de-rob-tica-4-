@@ -19,7 +19,7 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama1.png" width="650" alt=/>
+<img src="Imágenes/diagrama 1.png" width="650" alt=/>
 </p>
 
 
@@ -79,7 +79,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama2.png" width="650" alt="Diagrama de flujo del reto 2"/>
+<img src="Imágenes/diagrama 2.png" width="650" alt="Diagrama de flujo del reto 2"/>
 </p>
 
 
@@ -112,7 +112,7 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama3.png" width="650" alt="Diagrama de flujo del reto 3"/>
+<img src="Imágenes/diagrma 3.png" width="650" alt="Diagrama de flujo del reto 3"/>
 </p>
 
 
@@ -148,7 +148,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama4.png" width="650" alt="Diagrama de flujo del reto 4"/>
+<img src="Imágenes/diagrama 4.png" width="650" alt="Diagrama de flujo del reto 4"/>
 </p>
 
 
@@ -179,7 +179,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama5.png" width="650" alt="Diagrama de flujo del reto 5"/>
+<img src="Imágenes/diagrama 5.png" width="650" alt="Diagrama de flujo del reto 5"/>
 </p>
 
 
@@ -225,7 +225,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama6.png" width="650" alt="Diagrama de flujo del reto 6"/>
+<img src="Imágenes/diagrama 6.png" width="650" alt="Diagrama de flujo del reto 6"/>
 </p>
 
 
@@ -264,7 +264,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 **Diagrama de flujo**
 <p align="center">
-<img src="Imágenes/Diagrama6.1.png" width="650" alt="Diagrama de flujo del reto 6.1"/>
+<img src="Imágenes/diagrama 6.1.png" width="650" alt="Diagrama de flujo del reto 6.1"/>
 </p>
 
 **¿Cómo funciona el código?**
@@ -289,7 +289,7 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 **Diagrama de flujo**
 <p align="center">
-<img src="Imágenes/Diagrama6.2.png" width="650" alt="Diagrama de flujo del reto 6.2"/>
+<img src="Imágenes/diagrama 6.2.png" width="650" alt="Diagrama de flujo del reto 6.2"/>
 </p>
 
 **¿Cómo funciona el código?**
