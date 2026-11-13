@@ -19,7 +19,7 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 
 ### Diagrama de flujo
 <p align="center">
-<img src="Imágenes/Diagrama1.png" width="650" alt="Diagrama de flujo del reto 1"/>
+<img src="Imágenes/Diagrama1.png" width="650" alt=/>
 </p>
 
 
