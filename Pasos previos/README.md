@@ -271,7 +271,7 @@ Serial.println: escribe cm después del número para saber que la distancia est�
 delay: hace que Arduino espere 100 milisegundos antes de continuar.
 
 <p align="center">
-<img src="Imágenes/Captura (1).PNG" width="250" height="250" />
+<img src="Imágenes/Captura (1).PNG" width="350" height="350" />
 </p>
 
 Video:
