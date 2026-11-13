@@ -293,8 +293,12 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 
 ### Reto 6.1: Reto no dirigido
-
+<p align="center">
+<img src="Imágenes/WhatsApp Image 2026-11-13 at 21.08.10.jpeg" width="350" alt="Código del reto 6"/>
+</p>
 
 ### Reto 6.2: Reto no dirigido
-
+<p align="center">
+<img src="Imágenes/WhatsApp Image 2026-11-13 at 21.08.11.jpeg" width="350" alt="Código del reto 6"/>
+</p>
 
