@@ -9,7 +9,9 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 4. [Reto 4: Lectura del potenciómetro](#reto-4-lectura-del-potenciómetro)
 5. [Reto 5: PWM y brillo de un LED](#reto-5-pwm-y-brillo-de-un-led)
 6. [Reto 6: Sensor ultrasónico](#reto-6-sensor-ultrasónico)
-7. [Retos pendientes](#retos-pendientes)
+6.1. [Reto 6.1: Reto no dirigido](#reto-61-reto-no-dirigido)  
+   6.2. [Reto 6.2: Reto no dirigido](#reto-62-reto-no-dirigido)  
+7. [Consejos para las prácticas](#consejos-para-las-prácticas)
 
 ---
 
