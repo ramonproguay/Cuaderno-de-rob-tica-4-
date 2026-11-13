@@ -292,13 +292,73 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 Vídeo de Lorenzo / @LorenRobótica879.
 
 
-### Reto 6.1: Reto no dirigido
-<p align="center">
-<img src="Imágenes/WhatsApp Image 2026-11-13 at 21.08.10.jpeg" width="350" alt="Código del reto 6"/>
-</p>
+### Reto 6.1: Reto no dirigido 2 · Luminosidad según distancia
 
-### Reto 6.2: Reto no dirigido
-<p align="center">
-<img src="Imágenes/WhatsApp Image 2026-11-13 at 21.08.11.jpeg" width="350" alt="Código del reto 6"/>
-</p>
+**Objetivo:** conseguir que el LED cambie su brillo según la distancia a la que está un objeto. Cuanto más cerca esté, más luminosidad tendrá el LED.
+
+**Diagrama de flujo**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Iniciar Serial y configurar LED]
+ B --> C[Leer distancia con el sensor ultrasónico]
+ C --> D[Convertir distancia en valor de brillo]
+ D --> E[Mostrar distancia en el Monitor Serie]
+ E --> F[Aplicar brillo al LED con analogWrite]
+ F --> G[Esperar 100 ms]
+ G --> C
+```
+
+**¿Cómo funciona el código?**
+1. Se incluye la librería `Ultrasonic.h`, que permite utilizar el sensor.
+2. Se declaran los pines TRIG (4), ECHO (5) y LED (9).
+3. En `setup()`, se inicia el Monitor Serie a 9600 y el pin del LED se configura como salida.
+4. En `loop()`, el sensor mide la distancia en centímetros.
+5. `map()` transforma la distancia en un valor de brillo.
+6. `analogWrite()` aplica ese brillo al LED. El valor PWM va de 0 (apagado) a 255 (máximo brillo).
+7. El programa espera 100 ms y vuelve a medir.
+
+**Partes importantes**
+- `torticulis.read(CM)`: obtiene la distancia en centímetros.
+- `map(valor, 0, 1023, 0, 40)`: convierte un valor a otro intervalo. En este código se usa el potenciómetro para establecer el límite.
+- `analogWrite(LED, mapa)`: regula el brillo del LED.
+
+**Observación:** el enunciado pide dos LED, pero en la imagen del programa solo aparece uno conectado al pin 9. Para cumplirlo completamente habría que añadir otro LED y controlar su brillo también.
+
+### Reto 6.2: Reto no dirigido 3 · Potenciómetro como distancia límite
+
+**Objetivo:** añadir un potenciómetro para elegir la distancia a la que se activa el LED de emergencia. Al girarlo, se cambia el límite de proximidad.
+
+**Diagrama de flujo**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar LED y comenzar Serial]
+ B --> C[Leer potenciómetro A0]
+ C --> D[Convertir lectura en distancia límite]
+ D --> E[Medir distancia con el ultrasónico]
+ E --> F[Mostrar distancia en el Monitor Serie]
+ F --> G{¿Objeto más cerca que el límite?}
+ G -- Sí --> H[Encender LED y mostrar alerta]
+ G -- No --> I[Apagar LED]
+ H --> J[Esperar 100 ms]
+ I --> J
+ J --> C
+```
+
+**¿Cómo funciona el código?**
+1. Se declaran los pines del sensor (TRIG 4 y ECHO 5), el LED (9) y el potenciómetro (A0).
+2. En `setup()`, se inicia la comunicación serie y se configura el LED como salida.
+3. `analogRead(A0)` lee el potenciómetro, con valores de 0 a 1023.
+4. `map(valpot, 0, 1023, 0, 40)` convierte esa lectura en una distancia límite de 0 a 40 cm.
+5. El sensor ultrasónico mide la distancia real al objeto.
+6. Si la distancia es menor que el límite, el LED se enciende y aparece un aviso. Si no, se apaga.
+7. Se espera 100 ms y se repite el proceso.
+
+**Partes importantes**
+- `valpot`: guarda la lectura del potenciómetro.
+- `mapa`: guarda la distancia límite elegida.
+- `lecturasoniditos`: guarda la distancia medida.
+- `if (lecturasoniditos < mapa)`: comprueba si el objeto está dentro del límite.
+- `digitalWrite(LED, HIGH/LOW)`: enciende o apaga el LED.
+
+**Detalle a revisar:** en la captura aparece `map(valpot, 0, 1023, 0, 40)`, por lo que el potenciómetro selecciona un límite entre 0 y 40 cm. La comparación debe usar ese límite para activar el aviso.
 
