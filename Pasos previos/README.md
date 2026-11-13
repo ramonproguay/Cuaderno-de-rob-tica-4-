@@ -291,9 +291,6 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 [Ver el reto 6](https://www.youtube.com/watch?v=EXzA4VjIh4Y)  
 Vídeo de Lorenzo / @LorenRobótica879.
 
----
-
-## Retos pendientes
 
 ### Reto 6.1: Reto no dirigido
 
