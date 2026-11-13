@@ -1,282 +1,222 @@
-# Reto 1: Encendido alternativo de dos diodos led.
-El reto trata de conseguir encender un diodo Led mientras que el otro esta apagado así sucesivamente.
-El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
+# Cuaderno de Robótica · 4.º ESO
 
-**La Prueba con Tinkercad:**
+En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se explica qué queremos conseguir, qué componentes usamos y cómo funciona el programa.
 
-El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
+## Índice
+1. [Reto 1: Dos LED alternativos](#reto-1-dos-led-alternativos)
+2. [Reto 2: LED y pulsador](#reto-2-led-y-pulsador)
+3. [Reto 3: Potenciómetro y Monitor Serie](#reto-3-potenciómetro-y-monitor-serie)
+4. [Reto 4: Lectura del potenciómetro](#reto-4-lectura-del-potenciómetro)
+5. [Reto 5: PWM y brillo de un LED](#reto-5-pwm-y-brillo-de-un-led)
+6. [Reto 6: Sensor ultrasónico](#reto-6-sensor-ultrasónico)
+7. [Retos pendientes](#retos-pendientes)
 
-El Arduino es el cerebro del circuito y controla los Leds.
+---
 
-La Protoboard sirve para montar y conectar los componentes sin soldar.
+## Reto 1: Dos LED alternativos
 
-Los leds se encienden cuando reciben corriente.
+### ¿Qué queremos conseguir?
+Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está apagado. Después de un segundo cambian.
 
-La resistencia limita la corriente para proteger los Leds.
+### Materiales
+- Arduino
+- Protoboard
+- 2 LED
+- 2 resistencias
+- Cables
+- Cable USB
 
-Los cables conectan el Arduino con los diferentes componentes.
+### ¿Para qué sirve cada componente?
+- **Arduino:** es la placa que ejecuta el programa y controla el circuito.
+- **Protoboard:** permite montar el circuito sin soldar.
+- **LED:** emite luz cuando circula corriente en el sentido correcto.
+- **Resistencia:** limita la corriente para proteger el LED.
+- **Cables:** conectan los componentes.
+- **USB:** permite cargar el programa y alimentar la placa.
 
-El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
-
-
-
-
+### Circuito
 <p align="center">
-<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="400" height="400" />
+<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="400" alt="Circuito del reto 1"/>
 </p>
 
+### ¿Cómo funciona el código?
+1. En `setup()` se preparan los pines 2 y 3 como salidas.
+2. En `loop()`, Arduino enciende el LED del pin 2 y apaga el del pin 3.
+3. Espera 1 segundo.
+4. Cambia los LED: apaga el pin 2 y enciende el pin 3.
+5. El ciclo se repite continuamente.
 
+### Palabras importantes
+- `OUTPUT`: indica que un pin se usará para controlar un componente.
+- `HIGH`: pone la salida a nivel alto, normalmente encendiendo el LED conectado correctamente.
+- `LOW`: pone la salida a nivel bajo.
+- `pinMode()`: configura un pin.
+- `digitalWrite()`: cambia una salida a HIGH o LOW.
+- `delay(1000)`: espera 1000 milisegundos, es decir, 1 segundo.
 
-**El Código:**
+### Vídeo de ejemplo
+[Ver el reto 1](https://www.youtube.com/watch?v=2f6OHwZokGQ)  
+Vídeo de Lorenzo / @LorenRobótica879.
 
-Este programa controla dos LEDs conectados a Arduino.
-Primero configura los pines 2 y 3.
-Después enciende el LED del pin 2 y apaga el del pin 3.
-Espera 1 segundo antes de cambiar.
-Luego apaga el pin 2 y enciende el pin 3.
-Este proceso se repite continuamente.
+---
 
-OUTPUT significa que el pin controla un componente
+## Reto 2: LED y pulsador
 
-HIGH significa encendido
+### ¿Qué queremos conseguir?
+Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando pulsamos el botón y se enciende cuando no lo pulsamos.
 
-LOW significa apagado
-
-pinMode sirve para decirle a Arduino cómo se va a usar un pin
-
-digitalWrite sirve para poner un pin en HIGH o LOW
-
-delay(1000) hace que Arduino espere 1 segundo antes de continuar
-
-
-
-
+### Circuito
 <p align="center">
-<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="400" height="400" />
+<img src="Imágenes/Captura.PNG" width="450" alt="Código o montaje del reto 2"/>
 </p>
 
-
-
-
-**Así quedaría el Reto 1:**
-
-
-<a href="https://www.youtube.com/watch?v=2f6OHwZokGQ" target="_blank">
-<img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="500">
-</a>
-
-Vídeo realizado por (Lorenzo/@LorenRobótica879)
-
-Licencia estandar de Youtube.
-
-# Reto 2: Encendido de diodos led con pulsador.
-**El Código:**
-
-Este programa sirve para encender y apagar una luz LED usando un pulsador.
-
-Primero, le decimos a Arduino que el LED está conectado al número 13 y el pulsador al número 2. 
-Después, Arduino prepara el pulsador para recibir información y el LED para encenderse o apagarse.
-Luego, Arduino comprueba continuamente si estamos pulsando el botón.
-
-Si el botón **está pulsado, el LED se apaga**
-
-Si **no estamos pulsando el botón, el LED se enciende.**
-
-Todo esto se repite continuamente para que pueda saber siempre qué está pasando.
- 
-
 <p align="center">
-<img src="Imágenes/Captura.PNG" width="450" height="450" />
+<img src="Imágenes/captura 2.png" width="700" alt="Montaje del reto 2"/>
 </p>
 
+### ¿Cómo funciona?
+1. Se indica que el LED está conectado al pin 13 y el pulsador al pin 2.
+2. Arduino configura el LED como salida y el pulsador como entrada.
+3. El programa comprueba el estado del pulsador continuamente.
+4. Si está pulsado, apaga el LED.
+5. Si no está pulsado, enciende el LED.
 
-**La Prueba:**
+**Idea clave:** el pulsador sirve para enviar una señal de entrada a Arduino. El LED es una salida que Arduino controla.
 
-El circuito tiene un Arduino conectado a un LED mediante una protoboard. El programa trata de de si presionas el pulsador el LED se apaga y si no lo presionas el LED esta siempre encendido.
+---
 
-El Arduino es el cerebro del circuito.
+## Reto 3: Potenciómetro y Monitor Serie
 
-La Protoboard sirve para montar y conectar los componentes sin soldar.
+### ¿Qué queremos conseguir?
+Leer el valor de un potenciómetro y mostrarlo en el ordenador. Al girar el potenciómetro, el valor cambia.
 
-El leds se encienden esta siempre enciendo.
+### ¿Cómo funciona?
+- `analogRead(A2)` lee la entrada analógica A2.
+- La lectura de Arduino normalmente va de **0 a 1023**.
+- `Serial.begin(9600)` inicia la comunicación con el ordenador.
+- `Serial.println()` muestra el dato en el Monitor Serie.
+- `delay(500)` espera medio segundo entre lecturas.
 
-La resistencia limita la corriente para proteger el LED.
-
-Los cables conectan el Arduino con los diferentes componentes.
-
-El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
-
-
-
-<p align="center">
-<img src="Imágenes/captura 2.png" width="1050" height="1050" />
-</p>
-
-# Reto 3: Uso de un Potenciometro y el Monitor Serie
-
-En esta práctica conectamos una placa al ordenador usando varios cables.
-
-Después usamos un programa para ver los números que recibe la placa. Estos números pueden cambiar según la señal que recibe.
-
-En el programa usamos analogRead() para leer los valores y Serial.println() para verlos en la pantalla. También usamos delay(500) para que espere medio segundo entre cada lectura.
-
-**El Codigo:**
-
-P2 = A2: indica la entrada analógica que se utiliza.
-
-entrada: guarda el valor leído, entre 0 y 1023.
-
-DutyCycle: guarda el valor convertido, entre 0 y 255.
-
-Serial.begin(9600): inicia la comunicación con el ordenador.
-
-analogRead(P2): lee el valor de la entrada A2.
-
-map(): convierte el valor de 0-1023 a 0-255.
-
-Serial.print(): muestra el resultado en el ordenador.
-
-delay(500): espera medio segundo antes de repetir el proceso.
-
-
+### Código explicado
+- **P2 = A2:** guarda qué entrada analógica vamos a usar.
+- **entrada:** variable donde se guarda el valor leído.
+- **DutyCycle:** variable que puede guardar el valor convertido para controlar una salida PWM.
+- **map():** cambia un número de un intervalo a otro, por ejemplo de 0–1023 a 0–255.
 
 <p align="center">
-<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="250" height="250" />
+<img src="Imágenes/tfgyhyt6rygt6rfgytrfgytgtg.PNG" width="250" alt="Código del reto 3"/>
 </p>
 
+### Vídeo de ejemplo
+[Ver el reto 3](https://www.youtube.com/watch?v=u_LzLcUyPQk)  
+Vídeo de Lorenzo / @LorenRobótica879.
 
-**El Video:**
+---
 
-[![](https://img.youtube.com/vi/u_LzLcUyPQk/0.jpg)](https://www.youtube.com/watch?v=u_LzLcUyPQk)
+## Reto 4: Lectura del potenciómetro
 
-Vídeo realizado por (Lorenzo/@LorenRobótica879)
+### ¿Qué queremos conseguir?
+Leer el valor de un potenciómetro conectado a A0 y verlo en el Monitor Serie.
 
-Licencia estandar de Youtube.
-
-# Reto 4:  Mapeado de datos del potenciómetro.
-Este programa sirve para leer los valores de un potenciómetro conectado a la entrada A0 de Arduino y verlos en el ordenador.
-
-**El Código:**
-
-P1 = A0: indica que se utiliza la entrada analógica A0.
-
-float valor = 0: crea una variable para guardar el valor leído.
-
-Serial.begin(9600): inicia la comunicación con el ordenador.
-
-analogRead(P1): lee el valor de la entrada A0, que puede ir de 0 a 1023.
-
-Serial.println(valor): muestra el valor en el monitor serie y salta a la siguiente línea.
-
-delay(500): espera medio segundo antes de repetir la lectura.
-
-
-
+### Explicación del programa
+- **P1 = A0:** indica la entrada que se va a leer.
+- **valor:** variable que guarda la lectura.
+- **Serial.begin(9600):** inicia la comunicación con el ordenador.
+- **analogRead(P1):** lee un valor entre 0 y 1023.
+- **Serial.println(valor):** muestra el valor y pasa a la siguiente línea.
+- **delay(500):** espera medio segundo antes de volver a leer.
 
 <p align="center">
-<img src="Imágenes/POTENCIOMETRO.PNG" width="250" height="250" />
+<img src="Imágenes/POTENCIOMETRO.PNG" width="250" alt="Código del reto 4"/>
 </p>
 
-**El vídeo:**
+### Vídeo de ejemplo
+[Ver el reto 4](https://www.youtube.com/watch?v=FqHJXZcOIXY)  
+Vídeo de Lorenzo / @LorenRobótica879.
 
-[![](https://img.youtube.com/vi/FqHJXZcOIXY/0.jpg)](https://www.youtube.com/watch?v=FqHJXZcOIXY)
+---
 
-Vídeo realizado por (Lorenzo/@LorenRobótica879)
+## Reto 5: PWM y brillo de un LED
 
-Licencia estandar de Youtube.
+### ¿Qué queremos conseguir?
+Cambiar el brillo de un LED usando un potenciómetro. Cuanto más giramos el potenciómetro, más cambia el valor que Arduino manda al LED.
 
+### ¿Qué es PWM?
+PWM es una forma de controlar una salida digital encendiéndola y apagándola muy rápido. Así podemos regular, por ejemplo, el brillo de un LED.
 
-# Reto 5: PWM
+### Explicación del código
+<p align="center">
+<img src="Imágenes/captura1.PNG" width="250" alt="Código del reto 5"/>
+</p>
 
-En esta práctica usamos Arduino para controlar el brillo de un LED.
+1. **Variables**
+   - `LED9 = 9`: el LED está conectado al pin 9.
+   - `P1 = A0`: el potenciómetro se lee desde A0.
+   - `valor`: guarda la lectura del potenciómetro.
+   - `DutyCycle`: guarda el valor que controla el brillo.
 
-El programa lee un valor por el pin A0 y lo convierte en un número entre 0 y 255. Después, envía ese valor al pin 9 para cambiar el brillo del LED.
+2. **En `setup()`**
+   - `pinMode(LED9, OUTPUT)` prepara el pin 9 como salida.
+   - `Serial.begin(9600)` permite mostrar datos en el ordenador.
 
-**El Código:**
+3. **En `loop()`**
+   - `analogRead(P1)` lee el potenciómetro (0–1023).
+   - `map(valor, 0, 1023, 0, 255)` convierte la lectura a 0–255.
+   - `Serial.println(DutyCycle)` muestra el resultado.
+   - `analogWrite(LED9, DutyCycle)` cambia el brillo del LED.
+   - `delay(100)` espera 100 milisegundos.
+
+**Importante:** para usar PWM en Arduino UNO, el pin debe ser compatible con PWM. El pin 9 sí lo es.
+
+### Vídeo de ejemplo
+[Ver el reto 5](https://www.youtube.com/watch?v=ZORLppsyEgE)  
+Vídeo de Lorenzo / @LorenRobótica879.
+
+---
+
+## Reto 6: Sensor ultrasónico
+
+### ¿Qué queremos conseguir?
+Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de 15 cm, se activa un LED o aparece un aviso.
+
+### ¿Cómo funciona el sensor?
+- **TRIG:** envía una señal ultrasónica.
+- **ECHO:** recibe la señal cuando rebota en un objeto.
+- Arduino calcula el tiempo que tarda en volver y lo usa para medir la distancia.
+
+### Explicación del programa
+- `#include "Ultrasonic.h"`: añade la librería que permite usar el sensor.
+- `TRIG_PIN 12` y `ECHO_PIN 11`: indican los pines conectados al sensor.
+- `Ultrasonic OurModule(TRIG_PIN, ECHO_PIN)`: crea el objeto que controla el sensor.
+- `Serial.begin(9600)`: inicia la comunicación con el ordenador.
+- `Serial.println()`: muestra un mensaje en el Monitor Serie.
+- `pinMode()`: configura el pin del LED.
+- `Serial.print()`: muestra la distancia medida.
+- `delay(100)`: espera 100 milisegundos antes de repetir la medición.
 
 <p align="center">
-<img src="Imágenes/captura1.PNG" width="250" height="250" />
+<img src="Imágenes/Captura (1).PNG" width="350" alt="Código del reto 6"/>
 </p>
 
+### Vídeo de ejemplo
+[Ver el reto 6](https://www.youtube.com/watch?v=EXzA4VjIh4Y)  
+Vídeo de Lorenzo / @LorenRobótica879.
 
-**1. Variables**
+---
 
-#define LED9 9: indica que el LED está conectado al pin 9.
+## Retos pendientes
 
-int P1 = A0: indica que vamos a leer los valores del pin A0.
+### Reto 6.1: Reto no dirigido
+Pendiente de añadir el enunciado, el montaje, el código y la explicación.
 
-float valor = 0: guarda el valor que recibe el programa.
+### Reto 6.2: Reto no dirigido
+Pendiente de añadir el enunciado, el montaje, el código y la explicación.
 
-float DutyCycle: guarda el valor que se usará para controlar el LED.
+---
 
-**2. Función setup()**
-
-pinMode(LED9, OUTPUT): prepara el pin 9 para controlar el LED.
-
-Serial.begin(9600): permite enviar datos al ordenador para verlos en la pantalla.
-
-**3. Función loop()**
-
-valor = analogRead(P1): lee el valor que llega al pin A0.
-
-DutyCycle = map(valor, 0, 1023, 0, 255): convierte el valor leído a otro entre 0 y 255.
-
-Serial.println(DutyCycle): muestra el valor en el ordenador.
-
-analogWrite(LED9, DutyCycle): controla el brillo del LED según el valor obtenido.
-
-delay(100): espera 100 milisegundos antes de repetir el proceso.
-
-
-**El vídeo:**
-
-[![](https://img.youtube.com/vi/ZORLppsyEgE/0.jpg)](https://www.youtube.com/watch?v=ZORLppsyEgE)
-
-Vídeo realizado por (Lorenzo/@LorenRobótica879)
-
-Licencia estandar de Youtube.
-
-# Reto 6: Ultrasonido
-
-Este programa sirve para detectar si hay algún objeto cerca de un sensor. Si el objeto está a menos de 15 cm, se enciende una luz LED. Si está más lejos, la luz se apaga.
-
-#include "Ultrasonic.h"
-
-Esta línea sirve para añadir una librería que nos ayuda a utilizar el sensor ultrasónico y medir distancias.
-
-define TRIG_PIN 12
-
-define ECHO_PIN 11
-
-Aquí indicamos dónde están conectados los cables del sensor en Arduino. El TRIG envía una señal y el ECHO recibe esa señal cuando rebota contra un objeto.
-Ultrasonic OurModule(TRIG_PIN, ECHO_PIN);
-
-Esta parte se ejecuta una sola vez cuando encendemos Arduino.
-
-Serial.begin: sirve para conectar Arduino con el ordenador y ver los resultados.
-Serial.println: muestra un mensaje que dice «Aviso a 15 cm».
-pinMode: indica que el pin 13 se va a utilizar para encender y apagar el LED.
-void loop()
-
-Esta parte se repite todo el tiempo mientras Arduino está encendido.
-
-Serial.print: mide la distancia del objeto en centímetros.
-Serial.println: escribe cm después del número para saber que la distancia está en centímetros.
-delay: hace que Arduino espere 100 milisegundos antes de continuar.
-
-<p align="center">
-<img src="Imágenes/Captura (1).PNG" width="350" height="350" />
-</p>
-
-Video:
-
-
-[![](https://img.youtube.com/vi/EXzA4VjIh4Y/0.jpg)](https://www.youtube.com/watch?v=EXzA4VjIh4Y)
-
-Vídeo realizado por (Lorenzo/@LorenRobótica879)
-
-Licencia estandar de Youtube.
-
-
-# Reto 6.1: Reto no dirigido
-# Reto 6.2: Reto no dirigido
+## Consejos para las prácticas
+- Revisa las conexiones antes de conectar el USB.
+- Comprueba que el LED tiene la polaridad correcta.
+- Usa una resistencia para proteger cada LED.
+- Si el programa no funciona, revisa primero los pines y después el código.
+- Guarda una captura del circuito y del programa en cada reto.
