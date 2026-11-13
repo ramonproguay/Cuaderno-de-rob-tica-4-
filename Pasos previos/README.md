@@ -57,7 +57,7 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 
 ### Código
 <p align="center">
-<img src="Imágenes/Codigo_Reto1.png" width="500" alt="Código del reto 1"/>
+<img src="Imágenes/Codigo_Reto1.svg" width="500" alt="Código del reto 1"/>
 </p>
 
 ### ¿Cómo funciona el código?
