@@ -2,8 +2,6 @@
 El reto trata de conseguir encender un diodo Led mientras que el otro esta apagado así sucesivamente.
 El programa se hace con un Arduino conectando los cables a una Placa de pruebas.
 
-[Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/7CJUpBiHZaA-arduino/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
-
 **La Prueba con Tinkercad:**
 
 El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
@@ -19,10 +17,6 @@ La resistencia limita la corriente para proteger los Leds.
 Los cables conectan el Arduino con los diferentes componentes.
 
 El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
-
-
-
-
 
 
 
@@ -285,3 +279,4 @@ Licencia estandar de Youtube.
 
 
 # Reto 6.1: Reto no dirigido
+# Reto 6.2: Reto no dirigido
