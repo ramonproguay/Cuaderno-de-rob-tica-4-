@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Ramón · 15 años · 4.º ESO</strong><br>
-  ⚽ Fútbol &nbsp; | &nbsp; 🤖 Robótica
+   Fútbol &nbsp; | &nbsp;  Robótica
 </p>
 
 ---
@@ -15,6 +15,6 @@
 
 Me gustan el fútbol y la robótica.
 
-### 📚 Mi cuaderno
+###  Mi cuaderno
 ➡️ **[Entrar a los retos y actividades](Pasos%20previos/README.md)**
 
