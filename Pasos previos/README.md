@@ -17,6 +17,20 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 
 ## Reto 1: Dos LED alternativos
 
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar pines 2 y 3 como OUTPUT]
+ B --> C[Encender LED 2 y apagar LED 3]
+ C --> D[Esperar 1 segundo]
+ D --> E[Apagar LED 2 y encender LED 3]
+ E --> F[Esperar 1 segundo]
+ F --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
+
 ### ¿Qué queremos conseguir?
 Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está apagado. Después de un segundo cambian.
 
@@ -64,6 +78,20 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ## Reto 2: LED y pulsador
 
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar LED como salida y pulsador como entrada]
+ B --> C{¿Pulsador presionado?}
+ C -- Sí --> D[Apagar LED]
+ C -- No --> E[Encender LED]
+ D --> C
+ E --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
+
 ### ¿Qué queremos conseguir?
 Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando pulsamos el botón y se enciende cuando no lo pulsamos.
 
@@ -88,6 +116,19 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 ---
 
 ## Reto 3: Potenciómetro y Monitor Serie
+
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Iniciar Serial a 9600]
+ B --> C[Leer potenciómetro A2]
+ C --> D[Mostrar valor en Monitor Serie]
+ D --> E[Esperar 500 ms]
+ E --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
 
 ### ¿Qué queremos conseguir?
 Leer el valor de un potenciómetro y mostrarlo en el ordenador. Al girar el potenciómetro, el valor cambia.
@@ -117,6 +158,19 @@ Vídeo de Lorenzo / @LorenRobótica879.
 
 ## Reto 4: Lectura del potenciómetro
 
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Iniciar Serial a 9600]
+ B --> C[Leer entrada A0]
+ C --> D[Imprimir valor en Monitor Serie]
+ D --> E[Esperar 500 ms]
+ E --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
+
 ### ¿Qué queremos conseguir?
 Leer el valor de un potenciómetro conectado a A0 y verlo en el Monitor Serie.
 
@@ -139,6 +193,20 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ---
 
 ## Reto 5: PWM y brillo de un LED
+
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar LED 9 como salida e iniciar Serial]
+ B --> C[Leer potenciómetro A0]
+ C --> D[Convertir lectura de 0-1023 a 0-255]
+ D --> E[Mostrar valor y aplicar analogWrite]
+ E --> F[Esperar 100 ms]
+ F --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
 
 ### ¿Qué queremos conseguir?
 Cambiar el brillo de un LED usando un potenciómetro. Cuanto más giramos el potenciómetro, más cambia el valor que Arduino manda al LED.
@@ -177,6 +245,20 @@ Vídeo de Lorenzo / @LorenRobótica879.
 ---
 
 ## Reto 6: Sensor ultrasónico
+
+### Diagrama de flujo
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Configurar sensor y Serial]
+ B --> C[Enviar pulso ultrasónico]
+ C --> D[Medir eco y calcular distancia]
+ D --> E[Mostrar distancia y comprobar 15 cm]
+ E --> F[Esperar 100 ms]
+ F --> C
+````
+ [Abrir diagramas editables en Lucidchart](https://lucid.app/lucidchart/85bf39a5-8fe2-4ba2-85b0-bcb4aa46d3bd/edit)
+
+
 
 ### ¿Qué queremos conseguir?
 Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de 15 cm, se activa un LED o aparece un aviso.
