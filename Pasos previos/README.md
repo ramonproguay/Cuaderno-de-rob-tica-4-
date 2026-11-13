@@ -70,8 +70,8 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 - `delay(1000)`: espera 1000 milisegundos, es decir, 1 segundo.
 
 ### Vídeo de ejemplo
-[Ver el reto 1](https://www.youtube.com/watch?v=2f6OHwZokGQ)  
-Vídeo de Lorenzo / @LorenRobótica879.
+<p align="center"><a href="https://www.youtube.com/watch?v=2f6OHwZokGQ"><img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="400" alt="Vídeo Reto 1 de Lorenzo Robótica"/></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=2f6OHwZokGQ">▶ Ver vídeo en YouTube</a></p>
 
 ---
 
@@ -139,8 +139,8 @@ Leer el valor de un potenciómetro y mostrarlo en el ordenador. Al girar el pote
 </p>
 
 ### Vídeo de ejemplo
-[Ver el reto 3](https://www.youtube.com/watch?v=u_LzLcUyPQk)  
-Vídeo de Lorenzo / @LorenRobótica879.
+<p align="center"><a href="https://www.youtube.com/watch?v=u_LzLcUyPQk"><img src="https://img.youtube.com/vi/u_LzLcUyPQk/hqdefault.jpg" width="400" alt="Vídeo Reto 3 de Lorenzo Robótica"/></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=u_LzLcUyPQk">▶ Ver vídeo en YouTube</a></p>
 
 ---
 
@@ -170,8 +170,8 @@ Leer el valor de un potenciómetro conectado a A0 y verlo en el Monitor Serie.
 </p>
 
 ### Vídeo de ejemplo
-[Ver el reto 4](https://www.youtube.com/watch?v=FqHJXZcOIXY)  
-Vídeo de Lorenzo / @LorenRobótica879.
+<p align="center"><a href="https://www.youtube.com/watch?v=FqHJXZcOIXY"><img src="https://img.youtube.com/vi/FqHJXZcOIXY/hqdefault.jpg" width="400" alt="Vídeo Reto 4 de Lorenzo Robótica"/></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=FqHJXZcOIXY">▶ Ver vídeo en YouTube</a></p>
 
 ---
 
@@ -216,8 +216,8 @@ PWM es una forma de controlar una salida digital encendiéndola y apagándola mu
 **Importante:** para usar PWM en Arduino UNO, el pin debe ser compatible con PWM. El pin 9 sí lo es.
 
 ### Vídeo de ejemplo
-[Ver el reto 5](https://www.youtube.com/watch?v=ZORLppsyEgE)  
-Vídeo de Lorenzo / @LorenRobótica879.
+<p align="center"><a href="https://www.youtube.com/watch?v=ZORLppsyEgE"><img src="https://img.youtube.com/vi/ZORLppsyEgE/hqdefault.jpg" width="400" alt="Vídeo Reto 5 de Lorenzo Robótica"/></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=ZORLppsyEgE">▶ Ver vídeo en YouTube</a></p>
 
 ---
 
@@ -254,9 +254,8 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 </p>
 
 ### Vídeo de ejemplo
-[Ver el reto 6](https://www.youtube.com/watch?v=EXzA4VjIh4Y)  
-Vídeo de Lorenzo / @LorenRobótica879.
-
+<p align="center"><a href="https://www.youtube.com/watch?v=EXzA4VjIh4Y"><img src="https://img.youtube.com/vi/EXzA4VjIh4Y/hqdefault.jpg" width="400" alt="Vídeo Reto 6 de Lorenzo Robótica"/></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=EXzA4VjIh4Y">▶ Ver vídeo en YouTube</a></p>
 
 ### Reto 6.1: Reto no dirigido 2
 
