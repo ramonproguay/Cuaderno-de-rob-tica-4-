@@ -61,13 +61,13 @@ Conseguir que dos LED se enciendan uno después del otro. Cuando uno está encen
 4. Después hace lo contrario: apaga el LED del pin 2 y enciende el del pin 3.
 5. El ciclo se repite continuamente.
 
-### Palabras importantes
-- `OUTPUT`: indica que un pin se usará para controlar un componente.
-- `HIGH`: pone la salida a nivel alto, normalmente encendiendo el LED conectado correctamente.
-- `LOW`: pone la salida a nivel bajo.
-- `pinMode()`: configura un pin.
-- `digitalWrite()`: cambia una salida a HIGH o LOW.
-- `delay(1000)`: espera 1000 milisegundos, es decir, 1 segundo.
+### Algunas palabras del código
+- `OUTPUT`: significa que Arduino va a mandar una señal por ese pin, por ejemplo para encender un LED.
+- `HIGH`: pone el pin en estado encendido.
+- `LOW`: pone el pin en estado apagado.
+- `pinMode()`: sirve para decirle a Arduino cómo se va a usar un pin.
+- `digitalWrite()`: sirve para encender o apagar algo conectado a un pin.
+- `delay(1000)`: hace que Arduino espere 1 segundo antes de seguir.
 
 ### Vídeo de ejemplo
 <p align="center"><a href="https://www.youtube.com/watch?v=2f6OHwZokGQ"><img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="400" alt="Vídeo Reto 1 de Lorenzo Robótica"/></a></p>
@@ -188,8 +188,8 @@ En este reto leemos un potenciómetro conectado a A0 y vemos el número en el Mo
 ### ¿Qué queremos conseguir?
 En este reto podemos cambiar el brillo de un LED girando un potenciómetro. Arduino lee cuánto lo giramos y usa ese valor para poner el LED más o menos brillante.
 
-### ¿Qué es PWM?
-PWM es una forma de controlar una salida digital encendiéndola y apagándola muy rápido. Así podemos regular, por ejemplo, el brillo de un LED.
+### ¿Qué significa PWM?
+PWM es una manera de hacer que un LED brille más o menos. Arduino lo enciende y lo apaga muy rápido, y así parece que cambia su brillo.
 
 ### Explicación del código
 <p align="center">
