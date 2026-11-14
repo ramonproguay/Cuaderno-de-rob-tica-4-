@@ -1,6 +1,6 @@
 # Cuaderno de Robótica · 4.º ESO
 
-En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se explica qué queremos conseguir, qué componentes usamos y cómo funciona el programa.
+Este es mi cuaderno de robótica. Aquí están los retos que hemos hecho con Arduino, con los circuitos, los códigos y una explicación de cómo funcionan.
 
 ## Índice
 1. [Reto 1: Dos LED alternativos](#reto-1-dos-led-alternativos)
@@ -26,7 +26,7 @@ En este cuaderno están las prácticas que hacemos con Arduino. En cada reto se 
 
 
 ### ¿Qué queremos conseguir?
-Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está apagado. Después de un segundo cambian.
+Conseguir que dos LED se enciendan uno después del otro. Cuando uno está encendido, el otro está apagado, y cada segundo cambian.
 
 ### Materiales
 - Arduino
@@ -37,10 +37,10 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 - Cable USB
 
 ### ¿Para qué sirve cada componente?
-- **Arduino:** es la placa que ejecuta el programa y controla el circuito.
-- **Protoboard:** permite montar el circuito sin soldar.
-- **LED:** emite luz cuando circula corriente en el sentido correcto.
-- **Resistencia:** limita la corriente para proteger el LED.
+- **Arduino:** es la placa que hace funcionar el programa y controla los componentes.
+- **Protoboard:** sirve para colocar los componentes sin tener que soldarlos.
+- **LED:** es una pequeña luz que se enciende cuando le llega corriente.
+- **Resistencia:** hace que no pase demasiada corriente y protege el LED.
 - **Cables:** conectan los componentes.
 - **USB:** permite cargar el programa y alimentar la placa.
 
@@ -55,10 +55,10 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 </p>
 
 ### ¿Cómo funciona el código?
-1. En `setup()` se preparan los pines 2 y 3 como salidas.
-2. En `loop()`, Arduino enciende el LED del pin 2 y apaga el del pin 3.
+1. En `setup()` se ponen los pines 2 y 3 como salidas, para poder controlar los LED.
+2. En `loop()`, se enciende el LED del pin 2 y se apaga el del pin 3.
 3. Espera 1 segundo.
-4. Cambia los LED: apaga el pin 2 y enciende el pin 3.
+4. Después hace lo contrario: apaga el LED del pin 2 y enciende el del pin 3.
 5. El ciclo se repite continuamente.
 
 ### Palabras importantes
@@ -86,7 +86,7 @@ Que dos LED se enciendan por turnos: mientras uno está encendido, el otro está
 
 
 ### ¿Qué queremos conseguir?
-Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando pulsamos el botón y se enciende cuando no lo pulsamos.
+En este reto usamos un botón para controlar un LED. Al pulsar el botón, el LED se apaga; cuando no lo pulsamos, se enciende.
 
 ### Circuito
 <p align="center">
@@ -98,13 +98,13 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 </p>
 
 ### ¿Cómo funciona?
-1. Se indica que el LED está conectado al pin 13 y el pulsador al pin 2.
-2. Arduino configura el LED como salida y el pulsador como entrada.
-3. El programa comprueba el estado del pulsador continuamente.
+1. El LED está conectado al pin 13 y el botón al pin 2.
+2. Arduino prepara el LED como salida y el botón como entrada.
+3. El programa está mirando todo el rato si estamos pulsando el botón.
 4. Si está pulsado, apaga el LED.
 5. Si no está pulsado, enciende el LED.
 
-**Idea clave:** el pulsador sirve para enviar una señal de entrada a Arduino. El LED es una salida que Arduino controla.
+**En resumen:** el botón manda información a Arduino y Arduino decide si el LED se enciende o se apaga.
 
 ---
 
@@ -119,14 +119,14 @@ Controlar un LED con un pulsador. En esta práctica, el LED se apaga cuando puls
 
 
 ### ¿Qué queremos conseguir?
-Leer el valor de un potenciómetro y mostrarlo en el ordenador. Al girar el potenciómetro, el valor cambia.
+Leer el potenciómetro y ver su valor en el ordenador. Si lo giramos, el número que aparece cambia.
 
 ### ¿Cómo funciona?
-- `analogRead(A2)` lee la entrada analógica A2.
-- La lectura de Arduino normalmente va de **0 a 1023**.
-- `Serial.begin(9600)` inicia la comunicación con el ordenador.
-- `Serial.println()` muestra el dato en el Monitor Serie.
-- `delay(500)` espera medio segundo entre lecturas.
+- `analogRead(A2)` sirve para leer el valor que llega por el pin A2.
+- Arduino puede leer valores desde **0 hasta 1023**.
+- `Serial.begin(9600)` conecta la comunicación entre Arduino y el ordenador.
+- `Serial.println()` escribe el número en el Monitor Serie.
+- `delay(500)` hace que espere medio segundo antes de repetir.
 
 ### Código explicado
 - **P2 = A2:** guarda qué entrada analógica vamos a usar.
@@ -155,14 +155,14 @@ Leer el valor de un potenciómetro y mostrarlo en el ordenador. Al girar el pote
 
 
 ### ¿Qué queremos conseguir?
-Leer el valor de un potenciómetro conectado a A0 y verlo en el Monitor Serie.
+En este reto leemos un potenciómetro conectado a A0 y vemos el número en el Monitor Serie.
 
 ### Explicación del programa
-- **P1 = A0:** indica la entrada que se va a leer.
-- **valor:** variable que guarda la lectura.
+- **P1 = A0:** indica que vamos a leer el pin A0.
+- **valor:** es la variable donde se guarda el número que lee Arduino.
 - **Serial.begin(9600):** inicia la comunicación con el ordenador.
-- **analogRead(P1):** lee un valor entre 0 y 1023.
-- **Serial.println(valor):** muestra el valor y pasa a la siguiente línea.
+- **analogRead(P1):** lee el potenciómetro y da un número entre 0 y 1023.
+- **Serial.println(valor):** enseña el número en pantalla y lo escribe en otra línea.
 - **delay(500):** espera medio segundo antes de volver a leer.
 
 <p align="center">
@@ -186,7 +186,7 @@ Leer el valor de un potenciómetro conectado a A0 y verlo en el Monitor Serie.
 
 
 ### ¿Qué queremos conseguir?
-Cambiar el brillo de un LED usando un potenciómetro. Cuanto más giramos el potenciómetro, más cambia el valor que Arduino manda al LED.
+En este reto podemos cambiar el brillo de un LED girando un potenciómetro. Arduino lee cuánto lo giramos y usa ese valor para poner el LED más o menos brillante.
 
 ### ¿Qué es PWM?
 PWM es una forma de controlar una salida digital encendiéndola y apagándola muy rápido. Así podemos regular, por ejemplo, el brillo de un LED.
