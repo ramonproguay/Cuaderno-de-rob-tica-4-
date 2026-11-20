@@ -280,8 +280,6 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 - `map(valor, 0, 1023, 0, 40)`: convierte un valor a otro intervalo. En este código se usa el potenciómetro para establecer el límite.
 - `analogWrite(LED, mapa)`: regula el brillo del LED.
 
-**Observación:** el enunciado pide dos LED, pero en la imagen del programa solo aparece uno conectado al pin 9. Para cumplirlo completamente habría que añadir otro LED y controlar su brillo también.
-
 ### Reto 6.2: Reto no dirigido 3
 
 **Objetivo:** añadir un potenciómetro para elegir la distancia a la que se activa el LED de emergencia. Al girarlo, se cambia el límite de proximidad.
@@ -310,3 +308,25 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 **Detalle a revisar:** en la captura aparece `map(valpot, 0, 1023, 0, 40)`, por lo que el potenciómetro selecciona un límite entre 0 y 40 cm. La comparación debe usar ese límite para activar el aviso.
 
 ##  7 Servomotor
+
+
+
+<img width="583" height="355" alt="image" src="https://github.com/user-attachments/assets/e166ff16-9500-4e76-a29c-564d602a9cbe" />
+
+
+
+
+
+**¿Cómo funciona el código?**
+
+<img width="465" height="291" alt="image" src="https://github.com/user-attachments/assets/7e8b6cec-b261-4b1b-8fd2-b563bec37d9b" />
+
+
+
+
+
+
+
+
+
+
