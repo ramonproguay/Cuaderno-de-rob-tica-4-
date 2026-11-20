@@ -11,7 +11,7 @@ Este es mi cuaderno de robótica. Aquí están los retos que hemos hecho con Ard
 6. [Reto 6: Sensor ultrasónico](#reto-6-sensor-ultrasónico)
  6.1. [Reto 6.1: Reto no dirigido](#reto-61-reto-no-dirigido)
  6.2. [Reto 6.2: Reto no dirigido](#reto-62-reto-no-dirigido)  
-
+7. [Reto 7: Servomotor](#reto-7-servomotor)
 
 ---
 
@@ -309,3 +309,4 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 
 **Detalle a revisar:** en la captura aparece `map(valpot, 0, 1023, 0, 40)`, por lo que el potenciómetro selecciona un límite entre 0 y 40 cm. La comparación debe usar ese límite para activar el aviso.
 
+#  7 Servomotor
