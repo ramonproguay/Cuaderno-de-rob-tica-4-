@@ -1,19 +1,5 @@
 # Cuaderno de Robótica · 4.º ESO
 
-Este es mi cuaderno de robótica. Aquí están los retos que hemos hecho con Arduino, con los circuitos, los códigos y una explicación de cómo funcionan.
-
-## Índice
-1. [Reto 1: Dos LED alternativos](#reto-1-dos-led-alternativos)
-2. [Reto 2: LED y pulsador](#reto-2-led-y-pulsador)
-3. [Reto 3: Potenciómetro y Monitor Serie](#reto-3-potenciómetro-y-monitor-serie)
-4. [Reto 4: Lectura del potenciómetro](#reto-4-lectura-del-potenciómetro)
-5. [Reto 5: PWM y brillo de un LED](#reto-5-pwm-y-brillo-de-un-led)
-6. [Reto 6: Sensor ultrasónico](#reto-6-sensor-ultrasónico)
- 6.1. [Reto 6.1: Reto no dirigido](#reto-61-reto-no-dirigido)
- 6.2. [Reto 6.2: Reto no dirigido](#reto-62-reto-no-dirigido)
-7. [Reto 7: Servomotor](#reto-7-servomotor)
-
----
 
 ## Reto 1: Dos LED alternativos
 
