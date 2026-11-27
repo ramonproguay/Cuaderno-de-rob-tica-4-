@@ -316,7 +316,11 @@ https://github.com/user-attachments/assets/f7be35c1-69cc-44e9-9503-cf7f408d5496
 
 
 
+## Servomotor no dirigido 4
 
+## Servomotor no dirigido 5
+
+## Servomotor no dirigido 6
 
 
 
