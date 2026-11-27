@@ -320,6 +320,17 @@ https://github.com/user-attachments/assets/f7be35c1-69cc-44e9-9503-cf7f408d5496
 
 ## Servomotor no dirigido 5
 
+<img width="465" height="354" alt="image" src="https://github.com/user-attachments/assets/55457ce7-073d-48d8-aaf8-5f3080c2633d" />
+
+
+https://github.com/user-attachments/assets/4a79091a-6840-480a-885b-855db9f5af3b
+
+
+
+
+
+
+
 ## Servomotor no dirigido 6
 
 
