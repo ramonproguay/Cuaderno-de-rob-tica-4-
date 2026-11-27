@@ -324,6 +324,10 @@ Medir la distancia a un objeto. En esta práctica, si el objeto está a menos de
 
 
 
+https://github.com/user-attachments/assets/f7be35c1-69cc-44e9-9503-cf7f408d5496
+
+
+
 
 
 
